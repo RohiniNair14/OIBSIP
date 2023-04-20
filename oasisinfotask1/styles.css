@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+
+body{
+    background-color:black;
+    min-height:100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div{
+    display:flex;
+  
+}
+
+ul{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    margin-top:2.5rem;
+    list-style-type: none;
+}
+li{
+ 
+    margin-right:2rem;
+   
+}
+
+h1{
+    margin-inline:2rem;
+    margin-top:2rem;
+    color:green;
+    border:1px solid green;
+}
+
+ul li a:hover{
+    border-bottom:1px solid green;
+    border-bottom-color:green;
+    
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+ul li a{
+    text-decoration:none;
+    color:white;
+  
+}
+
+
+
+section{
+    max-width:500px;
+    height:auto;
+    border:1px solid black;
+    margin-top:4rem;
+    margin-left:2rem;
+
+}
+ p{
+    color:white;
+ }
+
+
+
+button{
+    margin-top:1rem;
+    margin-right:3rem;
+    border-radius:15px;
+    padding:5px 8px;
+
+    background-color:black;
+    color:green;
+    border:1px solid green;
+}     
+
+button:hover{
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(158, 158, 158, 0.655);
+    text-shadow:0.5px 0.5px #96e8a9bf;
+    cursor:pointer;
+}
+
+.bigtext{
+        font-weight: bold;
+        font-size:30px;
+     }
+
+
+
+.image{
+    background:url("/img/home1.png");
+    background-repeat:no-repeat;
+    margin-left:4rem;
+    display:flex;
+    
+}
+
+
+article{
+    color:green;
+    margin-top:1.25rem;
+  
+   
+}
+
+.middle{
+min-width:400px;
+ height:auto;
+ display:block;
+ background-color:white;
+
+}
+
+.motivation_text{
+    color:black;
+    padding:2rem;
+}
+
+h2{
+text-align:center;
+padding:1rem;
+
+}
+
+.about{
+    padding:2rem;
+  
+}
+
+
+.body{
+    max-width:600px;
+    height:300px;
+   border-top-left-radius:1px solid green; 
+   display:flex;
+}
+
+h3{
+    color:green;
+    padding:2rem;
+}
+#better{
+    color:white;
+    margin-left:2rem;
+    font-size:1.5rem;
+}
+
+#smallone{
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+
+footer{
+    background-color:white;
+    display:flex;
+}
+
+h4{
+    color:green;
+}
+
+#quick{
+    color:black;
+    display: flex;
+    flex-direction:column;
+    margin-left:2rem;
+    margin-top:6rem;
+    margin-right:8rem;
+  
+}
+
+.footerlist{
+    padding:0.25rem;
+   
+}
+
+
+#open{
+    color:black;
+    display: flex;
+    flex-direction:column;
+    margin-left:2rem;
+    margin-top:6rem;
+}
+
+.openlist{
+    padding:0.25rem; 
+}
+
+
+.timing{
+    font-size: bold;
+    color:green;
+}
+
+#openhours{
+    color:black;
+    display: flex;
+    flex-direction:column;
+    margin-left:2rem;
+    margin-top:6rem;
+}
+
+.openlist2{
+    padding:0.25rem; 
+}
